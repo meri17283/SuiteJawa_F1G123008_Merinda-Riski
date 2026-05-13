@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
-model = tf.keras.models.load_model("model_suit_jawa.h5")
+model = tf.keras.models.load_model("model_suit_jawa.h5", compile=False)
 
 labels = ["gajah", "manusia", "semut"]
 
